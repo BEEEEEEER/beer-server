@@ -20,6 +20,8 @@ app.get('/testing', (req, res) => {
     res.send('WERK WERK WERK');
 });
 
+//getting foods to render from the database
+
 
 
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
